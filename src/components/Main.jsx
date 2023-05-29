@@ -14,7 +14,7 @@ export const Main = () => {
             
                 <Routes>
                     <Route index element={<Page></Page>} ></Route>
-                    <Route path='/kgeu' element={<Page></Page>}></Route>
+                    <Route path='/kgeu/' element={<Page></Page>}></Route>
                     <Route path='/kgeu/1' element={<Article1/>}></Route>
                     <Route path='/kgeu/2' element={<Article2/>}></Route>
                     <Route path='/kgeu/3' element={<Article3/>}></Route>

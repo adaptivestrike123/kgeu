@@ -23,7 +23,7 @@ export const Header = () => {
                         <hr></hr>
                         <hr></hr>
                     </div>
-                    <Link to={"/"}>
+                    <Link to={"/kgeu/"}>
                         <div className='logo'>
                             <div className='logo-text'>РЕКЛАМА<br></br>&PR <span className='kgeu'>КГЭУ</span>
                             </div>
