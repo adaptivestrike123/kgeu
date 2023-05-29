@@ -4,6 +4,9 @@ import imageTwo from"../images/image2.jpg";
 import imageThree from"../images/image3.jpg";
 import imageFour from"../images/image4.png";
 import imageFive from"../images/image5.jpg";
+import imageSix from"../images/image6.png";
+import imageSeven from"../images/image7.jpg";
+import imageEight from"../images/image8.png";
 import { Link } from 'react-router-dom';
 
 export const Page = () => {
@@ -64,6 +67,39 @@ export const Page = () => {
                         </Link>
                         <br></br>
                         <p>Трудности профессии оператора службы 112, с чем могут столкнуться и как с этим можно бороться. Какими качествами должен обладать оператор?</p>
+                        <div className='button-read'>Читать далее...</div>
+                    </div>
+                    <div className='page-item'>
+                        <Link to={"/kgeu/6"}>
+                            <img src={imageSix} alt=''></img>
+                        </Link>
+                        <Link className='link' to={"/kgeu/6"}>
+                            <h1>«МЫ В НЕКОТОРОМ РОДЕ КОЛДУНЫ, МЫ УЧИМСЯ ВОСПРОИЗВОДИТЬ ЖИЗНЬ И ОТВЕТНЫЕ СТИХИИ У ЛЮДЕЙ. ЭТО МАГИЯ»</h1>
+                        </Link>
+                        <br></br>
+                        <p>Казанский режиссер Влад Петров – бывший корреспондент новостей на телекомпании «Эфир». Однажды ему подвернулась возможность взять интервью у людей, работавших с Андреем Тарковским – любимым режиссером Петрова – этот момент стал толчком к его будущей страсти к кинопроизводству...</p>
+                        <div className='button-read'>Читать далее...</div>
+                    </div>
+                    <div className='page-item'>
+                        <Link to={"/kgeu/7"}>
+                            <img src={imageSeven} alt=''></img>
+                        </Link>
+                        <Link className='link' to={"/kgeu/7"}>
+                            <h1>ПРАВДА О ВИЧ</h1>
+                        </Link>
+                        <br></br>
+                        <p>Интервью с сопредседателем регионального штаба ОНФ в Нижегородской области, а также главным врачом ГБУЗНО «Нижегородский областной центр по профилактике и...</p>
+                        <div className='button-read'>Читать далее...</div>
+                    </div>
+                    <div className='page-item'>
+                        <Link to={"/kgeu/8"}>
+                            <img src={imageEight} alt=''></img>
+                        </Link>
+                        <Link className='link' to={"/kgeu/8"}>
+                            <h1>СРАЖАЮЩИЕСЯ ЗА РОДИНУ</h1>
+                        </Link>
+                        <br></br>
+                        <p>Уроженка города Мариуполь, Елена Викторовна Субботина прошла путь от инженера-электрика до журналиста и работает сейчас в Министерстве информации ДНР в...</p>
                         <div className='button-read'>Читать далее...</div>
                     </div>
                     
