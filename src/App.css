@@ -19,6 +19,7 @@ h1 {
 * {
   margin: 0;
   padding: 0;
+  letter-spacing: 0.6px;
   box-sizing: border-box;
   font-family: 'Roboto Condensed', sans-serif;
 }
@@ -50,7 +51,7 @@ a {
   position: fixed;
   width: 100%;
   color:white;
-  height: 85px;
+  height: 80px;
   background-color: rgb(80,80,80);
   display: flex;
   justify-content: center;

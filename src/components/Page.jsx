@@ -7,6 +7,7 @@ import imageFive from"../images/image5.jpg";
 import imageSix from"../images/image6.png";
 import imageSeven from"../images/image7.jpg";
 import imageEight from"../images/image8.png";
+import imageNine from"../images/image9.jpg";
 import { Link } from 'react-router-dom';
 
 export const Page = () => {
@@ -100,6 +101,17 @@ export const Page = () => {
                         </Link>
                         <br></br>
                         <p>Уроженка города Мариуполь, Елена Викторовна Субботина прошла путь от инженера-электрика до журналиста и работает сейчас в Министерстве информации ДНР в...</p>
+                        <div className='button-read'>Читать далее...</div>
+                    </div>
+                    <div className='page-item'>
+                        <Link to={"/kgeu/9"}>
+                            <img src={imageNine} alt=''></img>
+                        </Link>
+                        <Link className='link' to={"/kgeu/9"}>
+                            <h1>БАЛЕТ — ЭТО ПРОФЕССИЯ ИЛИ ПРИЗВАНИЕ?</h1>
+                        </Link>
+                        <br></br>
+                        <p>Для всех нас балет — это что-то невероятно красивое и легкое. Но вы когда-нибудь задумывались, что за этим стоит? Вот...</p>
                         <div className='button-read'>Читать далее...</div>
                     </div>
                     
