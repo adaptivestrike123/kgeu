@@ -10,6 +10,10 @@ import { Article6 } from './Article6';
 import { Article7 } from './Article7';
 import { Article8 } from './Article8';
 import { Article9 } from './Article9';
+import { Article10 } from './Article10';
+import { Article11 } from './Article11';
+import { Article12 } from './Article12';
+import { Article13 } from './Article13';
 
 export const Main = () => {
     return (
@@ -28,6 +32,10 @@ export const Main = () => {
                     <Route path='/kgeu/7' element={<Article7/>}></Route>
                     <Route path='/kgeu/8' element={<Article8/>}></Route>
                     <Route path='/kgeu/9' element={<Article9/>}></Route>
+                    <Route path='/kgeu/10' element={<Article10/>}></Route>
+                    <Route path='/kgeu/11' element={<Article11/>}></Route>
+                    <Route path='/kgeu/12' element={<Article12/>}></Route>
+                    <Route path='/kgeu/13' element={<Article13/>}></Route>
                     <Route path='*' element={<Page></Page>}></Route>
                 </Routes>
             </div>

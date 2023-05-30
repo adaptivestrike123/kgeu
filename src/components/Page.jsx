@@ -8,6 +8,10 @@ import imageSix from"../images/image6.png";
 import imageSeven from"../images/image7.jpg";
 import imageEight from"../images/image8.png";
 import imageNine from"../images/image9.jpg";
+import imageTen from"../images/image10.jpg";
+import imageEleven from"../images/image11.jpg";
+import imageTwelve from"../images/image12.jpg";
+import imageThirteen from"../images/image13.jpg";
 import { Link } from 'react-router-dom';
 
 export const Page = () => {
@@ -114,7 +118,50 @@ export const Page = () => {
                         <p>Для всех нас балет — это что-то невероятно красивое и легкое. Но вы когда-нибудь задумывались, что за этим стоит? Вот...</p>
                         <div className='button-read'>Читать далее...</div>
                     </div>
-                    
+                    <div className='page-item'>
+                        <Link to={"/kgeu/10"}>
+                            <img src={imageTen} alt=''></img>
+                        </Link>
+                        <Link className='link' to={"/kgeu/10"}>
+                            <h1>«МЕДИЦИНА – ЭТО НЕ ПРОСТО ПРОФЕССИЯ, ЭТО МОЯ ЖИЗНЬ»</h1>
+                        </Link>
+                        <br></br>
+                        <p>Сегодня в нашей рубрике интервью с по-настоящему удивительным человеком Анатолием Александровичем Павловым.Анатолий Александрович — главный врач Республиканской детской клинической больницы Чувашии,  детский хирург. Им лично и под его руководством был проведен ряд уникальных для России и мира операций, например по разделению сиамских близнецов Зиты и Гиты...</p>
+                        <div className='button-read'>Читать далее...</div>
+                    </div>
+                    <div className='page-item'>
+                        <Link to={"/kgeu/11"}>
+                            <img src={imageEleven} alt=''></img>
+                        </Link>
+                        <Link className='link' to={"/kgeu/11"}>
+                            <h1>«СЧАСТЬЕ В МИРЕ И В ВАШЕМ ДОБРОМ ОТНОШЕНИИ К ОКРУЖАЮЩИМ»</h1>
+                        </Link>
+                        <br></br>
+                        <p>Александр (в целях безопасности имя изменено) в 2011 году ступил на путь защитника Родины. Сразу после окончания школы поступил на...</p>
+                        <div className='button-read'>Читать далее...</div>
+                    </div>
+                    <div className='page-item'>
+                        <Link to={"/kgeu/12"}>
+                            <img src={imageTwelve} alt=''></img>
+                        </Link>
+                        <Link className='link' to={"/kgeu/12"}>
+                            <h1>ВЫИГРАЛА ПАРИ – СТАЛА РАДИОВЕДУЩЕЙ</h1>
+                        </Link>
+                        <br></br>
+                        <p>Каждое утро миллионы людей, разъезжая на машинах, слушают радио. На сегодня оно расценивается как фоновое сопровождение, которое имеет  развлекательный характер. Главными лицами в этой сфере выступают радиоведущие. Каждое утро они дарят слушателям хорошее настроение перед работой, обсуждая новости и транслируя музыку...</p>
+                        <div className='button-read'>Читать далее...</div>
+                    </div>
+                    <div className='page-item'>
+                        <Link to={"/kgeu/13"}>
+                            <img src={imageThirteen} alt=''></img>
+                        </Link>
+                        <Link className='link' to={"/kgeu/13"}>
+                            <h1>ЛИЦО ГЕРОЯ ЗА МАСКОЙ ОБЫЧНОГО ЧЕЛОВЕКА</h1>
+                        </Link>
+                        <br></br>
+                        <p>Виктор Евгеньевич Вайкин является сердечно-сосудистым хирургом первой квалификационной категории ГБУЗ НО Специализированной кардиохирургической клинической больницы. Днями и ночами он трудится...</p>
+                        <div className='button-read'>Читать далее...</div>
+                    </div>
                 </div>
             </div>
         </div>
